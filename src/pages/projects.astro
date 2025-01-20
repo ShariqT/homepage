@@ -5,29 +5,29 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="OpenSDK Specification"
+    img="/GitHub-logo.png"
+    desc="OpenSDK was created to address a problem that I have seen in companies that offer SDKs in multiple languages. Different teams managed the different language implementations and as a result there were no common naming conventions or even parity between function arguments for different implementations."
+    url="https://github.com/ShariqT/opensdk-spec"
+    badge="Developer Tools"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Crystal DevContainer"
+    img="/GitHub-logo.png"
+    desc="Allows someone to use Crystal in a devcontainer for VS Code. Environment also comes with Node and Python3.9 installed."
+    url="https://github.com/ShariqT/crystal-devcontainer"
   />
 
-  <div>
+  <!-- <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
+  </div> -->
 
-  <HorizontalCard
+  <!-- <HorizontalCard
     title="Demo Project 3"
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -47,5 +47,5 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
-  />
+  /> -->
 </BaseLayout>
