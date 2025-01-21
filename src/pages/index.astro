@@ -32,21 +32,21 @@ const last_posts = posts.slice(0, 3);
 
   <HorizontalCard
     title="From Angular to Vue: Migrating a Dashboard"
-    img="/migration-to-vue.png"
+    img="/homepage/migration-to-vue.png"
     desc="Planning is key when migrating a customer-facing dashboard from Angular to Vue. Read about how Lob did it."
     url="https://www.lob.com/blog/migrating-from-angular-to-vue-a-dashboards-story"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Nick Fury Comes to the Console via Github Actions"
-    img="/sam-jackson-action.png"
+    img="/homepage/sam-jackson-action.png"
     desc="Learn how to build custom Github Actions by appending Sam Jackson quotes to your console messages using GitHub Actions."
     url="https://www.lob.com/blog/nick-fury-comes-to-the-console-via-github-actions"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Using Lob with C# and Flurl"
-    img="/csharp.png"
+    img="/homepage/csharp.png"
     desc="Learn how to interact with the Lob API using C# and Flurl."
     url="https://www.lob.com/blog/using-lob-api-with-csharp-and-flurl"
   />
@@ -63,7 +63,7 @@ const last_posts = posts.slice(0, 3);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.slug)}
+          url={"/homepage/blog/" + createSlug(post.data.title, post.slug)}
           target="_self"
           badge={post.data.badge}
         />

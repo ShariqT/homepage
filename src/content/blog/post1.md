@@ -2,7 +2,7 @@
 title: "Translating math equations into code"
 description: "In this video, I will go over some common mathematical symbols and how to translate that into Python code."
 pubDate: "Sep 19 2024"
-heroImage: "/math-to-code-pt1.png"
+heroImage: "/homepage/math-to-code-pt1.png"
 tags: ["video", "python", "math"]
 ---
 
